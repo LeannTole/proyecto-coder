@@ -1,7 +1,9 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
+
 h1 {
   background-color: rgb(0, 255, 255);
   font-size: 45px;
@@ -15,13 +17,16 @@ h3 {
   padding: 10px;
   align-items: center;
 }
+
 h3:hover {
   font-size: 45px;
 }
+
 nav {
   display: flex;
   justify-content: center;
 }
+
 .contenedores-texto {
   background-color: rgb(64, 236, 236);
   border: 2px, solid black;
@@ -31,7 +36,9 @@ nav {
   align-items: center;
   flex-direction: inherit;
   flex-wrap: wrap;
+  max-width: 100%;
 }
+
 .boton-nav {
   background-color: #00b318;
   color: bisque;
@@ -39,29 +46,32 @@ nav {
   font-size: 16px;
   border-radius: 8px;
 }
+
 .boton-nav:hover {
   transform: scale(120%) translateY(6px);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   background-color: orangered;
 }
+
 a {
   text-decoration: none;
 }
+
 #texto-principal {
   font-size: 25px;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 .caja-integrantes2 {
-  width: 300px;
+  max-width: 300px;
   height: 500px;
   background-color: grey;
   padding: 15px;
   margin: 15px;
 }
+
 .caja-contenedora {
-  width: 100%;
+  max-width: 100%;
   height: 100%;
   padding: 20px;
   margin: 15px;
@@ -72,15 +82,20 @@ a {
   flex-direction: inherit;
   flex-wrap: wrap;
 }
+
 .imagen-adaptable {
-  width: 100%;
+  max-width: 100%;
   height: 100%;
   object-fit: contain;
   padding: 15px;
 }
+
 @media (min-width: 768px) {
-  #responsive {
-    background-color: aquamarine;
+  .responsive {
+    background-color: slategray;
+    max-width: 100%;
+    height: auto;
+    overflow-x: hidden;
   }
 }
 footer {
@@ -89,3 +104,9 @@ footer {
   border: black;
   background-color: bisque;
 }
+
+.prueba-cscc {
+  background-color: #00b318;
+}
+
+/*# sourceMappingURL=style.css.map */
