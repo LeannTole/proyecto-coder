@@ -39,24 +39,6 @@ nav {
   max-width: 100%;
 }
 
-.boton-nav {
-  background-color: #00b318;
-  color: bisque;
-  padding: 12px 24px;
-  font-size: 16px;
-  border-radius: 8px;
-}
-
-.boton-nav:hover {
-  transform: scale(120%) translateY(6px);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-  background-color: orangered;
-}
-
-a {
-  text-decoration: none;
-}
-
 #texto-principal {
   font-size: 25px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
