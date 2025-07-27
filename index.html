@@ -8,29 +8,25 @@
   </head>
   <body>
     <header>
-      <nav>
-        <button class="boton-nav">
-          <a href="./pages/Historia.html">Historia</a>
-        </button>
-        <button class="boton-nav">
-          <a href="./pages/Discografia.html">Discografia</a>
-        </button>
-        <button class="boton-nav">
-          <a href="./pages/Miembros.html">Integrantes</a>
-        </button>
-        <button class="boton-nav">
-          <a href="./pages/Multimedia.html">Multimedia</a>
-        </button>
+      <nav class="navbar-">
+        <ul class="nav-links-">
+          <li><a href="./pages/Historia.html">Historia</a></li>
+          <li><a href="./pages/Discografia.html">Discografia</a></li>
+          <li><a href="./pages/Miembros.html">Integrantes</a></li>
+          <li><a href="./pages/Multimedia.html">Multimedia</a></li>
+        </ul>
       </nav>
     </header>
-    <main class="responsive">
-      <div class="caja-pricipal">
-        <img
-          class="imagen-adaptable"
-          src="https://res.cloudinary.com/dwt1uxs9m/image/upload/v1752497554/images_mta5nn.png"
-          alt=""
-        />
-        <h1>Linkin Park</h1>
+    <main class="caja-contenedora">
+      <div>
+        <section id="imagen-inicio">
+          <img
+            class="imagen-adaptable"
+            src="https://res.cloudinary.com/dwt1uxs9m/image/upload/v1753576153/20230214_linkin_park__header_uabj5i.jpg"
+            alt=""
+          />
+        </section>
+        <h1 id="h1-inicio">Linkin Park</h1>
         <div id="texto-principal">
           <p class="contenedores-texto">
             Linkin Park es una banda estadounidense de rock procedente de Agoura
@@ -101,11 +97,13 @@
           </p>
         </div>
       </div>
-      <div class="prueba-scss"><p>holaaa</p></div>
     </main>
+
     <footer>
       <p>Fuente:</p>
-      <a href="https://es.wikipedia.org/wiki/Linkin_Park#">Wikipedia</a>
+      <a class="a-footer" href="https://es.wikipedia.org/wiki/Linkin_Park#"
+        >Wikipedia</a
+      >
     </footer>
   </body>
 </html>
